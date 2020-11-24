@@ -16,11 +16,7 @@ int main()
         while (true) {
             std::cout << "Please input a grade\n";
             std::cin>>new_grade;
-            if (!new_grade) {
-                std::cout<<"NOT A NUMBER!";
-                break;
-             }
-            if (new_grade < 0)
+             if (new_grade < 0)
                 throw NegativeInputException();
             index = new_grade / 10;
             try {
