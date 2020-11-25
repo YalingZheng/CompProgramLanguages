@@ -1,0 +1,5 @@
+class NegativeInputException extends Exception {
+	public NegativeInputException() {
+		System.out.println("End of input data reached");		
+	}
+}
