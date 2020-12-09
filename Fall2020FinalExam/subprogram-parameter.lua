@@ -2,7 +2,7 @@ function main()
   function simplePrint()
     print(curPrivilege);
   end
-  function NormalPrint()
+  function DefaultPrint()
     curPrivilege = "read-write";
     complicatedPrint(simplePrint);
   end
@@ -11,7 +11,7 @@ function main()
     printmethod();
   end
   curPrivilege = "read";
-  NormalPrint();
+  DefaultPrint();
 end
 
 main();
