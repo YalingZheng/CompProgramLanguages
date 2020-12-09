@@ -1,4 +1,4 @@
-print("Hello, world!")target = 10
+target = 10
 winner = 0
 
 function movejohn()
